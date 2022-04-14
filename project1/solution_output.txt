@@ -1,0 +1,85 @@
+Script started on 2022-01-21 19:31:31-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="203" LINES="49"]
+]0;amitchell2@amitchell2-VirtualBox: ~/project1amitchell2@amitchell2-VirtualBox:~/project1$ make clean
+rm generation prolific
+]0;amitchell2@amitchell2-VirtualBox: ~/project1amitchell2@amitchell2-VirtualBox:~/project1$ make
+gcc -g -o generation generation.c
+gcc -g -o prolific prolific.c
+]0;amitchell2@amitchell2-VirtualBox: ~/project1amitchell2@amitchell2-VirtualBox:~/project1$ ./prolific
+Read Seed Value: 12345
+
+Random Child Count: 11
+[Parent] I am waiting for PID 2889 to finish
+	[Child, PID: 2889]: I am the child and I will wait for 3 Seconds and exit with code 22
+	[Child, PID: 2889]: now exiting...
+[Parent] child 2889 finished with status code 22
+[Parent] I am waiting for PID 2890 to finish
+	[Child, PID: 2890]: I am the child and I will wait for 3 Seconds and exit with code 24
+	[Child, PID: 2890]: now exiting...
+[Parent] child 2890 finished with status code 24
+[Parent] I am waiting for PID 2891 to finish
+	[Child, PID: 2891]: I am the child and I will wait for 2 Seconds and exit with code 2
+	[Child, PID: 2891]: now exiting...
+[Parent] child 2891 finished with status code 2
+[Parent] I am waiting for PID 2892 to finish
+	[Child, PID: 2892]: I am the child and I will wait for 1 Seconds and exit with code 22
+	[Child, PID: 2892]: now exiting...
+[Parent] child 2892 finished with status code 22
+[Parent] I am waiting for PID 2893 to finish
+	[Child, PID: 2893]: I am the child and I will wait for 1 Seconds and exit with code 5
+	[Child, PID: 2893]: now exiting...
+[Parent] child 2893 finished with status code 5
+[Parent] I am waiting for PID 2894 to finish
+	[Child, PID: 2894]: I am the child and I will wait for 3 Seconds and exit with code 38
+	[Child, PID: 2894]: now exiting...
+[Parent] child 2894 finished with status code 38
+[Parent] I am waiting for PID 2895 to finish
+	[Child, PID: 2895]: I am the child and I will wait for 2 Seconds and exit with code 3
+	[Child, PID: 2895]: now exiting...
+[Parent] child 2895 finished with status code 3
+[Parent] I am waiting for PID 2896 to finish
+	[Child, PID: 2896]: I am the child and I will wait for 2 Seconds and exit with code 29
+	[Child, PID: 2896]: now exiting...
+[Parent] child 2896 finished with status code 29
+[Parent] I am waiting for PID 2897 to finish
+	[Child, PID: 2897]: I am the child and I will wait for 1 Seconds and exit with code 29
+	[Child, PID: 2897]: now exiting...
+[Parent] child 2897 finished with status code 29
+[Parent] I am waiting for PID 2898 to finish
+	[Child, PID: 2898]: I am the child and I will wait for 3 Seconds and exit with code 28
+	[Child, PID: 2898]: now exiting...
+[Parent] child 2898 finished with status code 28
+[Parent] I am waiting for PID 2899 to finish
+	[Child, PID: 2899]: I am the child and I will wait for 1 Seconds and exit with code 48
+	[Child, PID: 2899]: now exiting...
+[Parent] child 2899 finished with status code 48
+]0;amitchell2@amitchell2-VirtualBox: ~/project1amitchell2@amitchell2-VirtualBox:~/project1$ ./generation
+Read Seed Value: 12345
+vRandom Child Count: 8
+[Parent, PID: 2900] I am waiting for PID 2901 to finish
+	[Child, PID: 2901]: I was called desendent count=8. I'll have 7 descendant(s).
+[Parent, PID: 2901] I am waiting for PID 2902 to finish
+	[Child, PID: 2902]: I was called desendent count=7. I'll have 6 descendant(s).
+[Parent, PID: 2902] I am waiting for PID 2903 to finish
+	[Child, PID: 2903]: I was called desendent count=6. I'll have 5 descendant(s).
+[Parent, PID: 2903] I am waiting for PID 2904 to finish
+	[Child, PID: 2904]: I was called desendent count=5. I'll have 4 descendant(s).
+[Parent, PID: 2904] I am waiting for PID 2905 to finish
+	[Child, PID: 2905]: I was called desendent count=4. I'll have 3 descendant(s).
+[Parent, PID: 2905] I am waiting for PID 2906 to finish
+	[Child, PID: 2906]: I was called desendent count=3. I'll have 2 descendant(s).
+[Parent, PID: 2906] I am waiting for PID 2907 to finish
+	[Child, PID: 2907]: I was called desendent count=2. I'll have 1 descendant(s).
+[Parent, PID: 2907] I am waiting for PID 2908 to finish
+	[Child, PID: 2908]: I was called desendent count=1. I'll have 0 descendant(s).
+[Parent, PID: 2907] child 2908 finished with status code 0. It's now my turn to exit
+[Parent, PID: 2906] child 2907 finished with status code 1. It's now my turn to exit
+[Parent, PID: 2905] child 2906 finished with status code 2. It's now my turn to exit
+[Parent, PID: 2904] child 2905 finished with status code 3. It's now my turn to exit
+[Parent, PID: 2903] child 2904 finished with status code 4. It's now my turn to exit
+[Parent, PID: 2902] child 2903 finished with status code 5. It's now my turn to exit
+[Parent, PID: 2901] child 2902 finished with status code 6. It's now my turn to exit
+[Parent, PID: 2900] child 2901 finished with status code 7. It's now my turn to exit
+]0;amitchell2@amitchell2-VirtualBox: ~/project1amitchell2@amitchell2-VirtualBox:~/project1$ exit
+exit
+
+Script done on 2022-01-21 19:32:24-05:00 [COMMAND_EXIT_CODE="8"]

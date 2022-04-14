@@ -1,0 +1,312 @@
+Script started on 2022-02-04 18:37:53-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+]0;amitchell2@amitchell2-VirtualBox: ~/project2amitchell2@amitchell2-VirtualBox:~/project2$ vim seed.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[H[2J[?25l[24;1H"seed.txt" 1L, 6C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H32343
+~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;63H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[24;1H-- INSERT --[24;13H[K[24;63H1,2[11CAll[1;2H[?25h[?25l[24;65H3[1;3H[?25h[?25l343[1;5H[K[24;65H2[1;2H[?25h[?25l[24;65H3[1;3H[?25h[?25l43[1;4H[K[24;65H2[1;2H[?25h[?25l443[24;65H3[1;3H[?25h[?25l[24;65H4[1;4H[?25h[?25l53[24;65H5[1;5H[?25h[24;1H[K[1;4H[?25l[24;63H1,4[11CAll[1;4H[?25h[?25l[24;63H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"seed.txt" 1L, 6C written[23;2t[23;1t
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;amitchell2@amitchell2-VirtualBox: ~/project2amitchell2@amitchell2-VirtualBox:~/project2$ make
+gcc -g -o shipping shipping.c workerQueue.c workerQueue.h packageQueue.h packageQueue.c -pthread
+/usr/bin/ld: warning: size of symbol `colors' changed from 8 in /tmp/cczQK0CR.o to 28 in /tmp/ccXu90ET.o
+]0;amitchell2@amitchell2-VirtualBox: ~/project2amitchell2@amitchell2-VirtualBox:~/project2$ s
+./shipping
+Random Seed: 34453
+�
+Green 0 grabbed a Package: 
+	Package: 0
+	Steps: 2 1 4 
+Yellow 0 grabbed a Package: 
+	Package: 1
+	Steps: 2 1 
+Red 1 grabbed a Package: 
+	Package: 3
+	Steps: 4 2 
+Blue 1 grabbed a Package: 
+	Package: 2
+	Steps: 2 3 1 
+Yellow 0 claimed 2 1 
+Yellow 0 released 2
+Red 1 claimed 4 2 
+Yellow 0 released 1
+Yellow 0 Placed a package unto truck
+Yellow 1 grabbed a Package: 
+	Package: 4
+	Steps: 4 3 2 
+Red 1 released 4
+Red 1 released 2
+Red 1 Placed a package unto truck
+Red 2 grabbed a Package: 
+	Package: 5
+	Steps: 3 1 4 
+Yellow 1 claimed 4 3 2 
+Yellow 1 released 4
+Yellow 1 released 3
+Red 2 claimed 3 1 4 
+Yellow 1 released 2
+Yellow 1 Placed a package unto truck
+Yellow 2 grabbed a Package: 
+	Package: 6
+	Steps: 2 3 
+Red 2 released 3
+Yellow 2 claimed 2 3 
+Red 2 released 1
+Yellow 2 released 2
+Red 2 released 4
+Red 2 Placed a package unto truck
+Red 3 grabbed a Package: 
+	Package: 7
+	Steps: 1 2 
+Green 0 claimed 2 1 4 
+Yellow 2 released 3
+Yellow 2 Placed a package unto truck
+Yellow 3 grabbed a Package: 
+	Package: 8
+	Steps: 2 1 
+Green 0 released 2
+Green 0 released 1
+Yellow 3 claimed 2 1 
+Green 0 released 4
+Green 0 Placed a package unto truck
+Yellow 3 released 2
+Green 1 grabbed a Package: 
+	Package: 9
+	Steps: 4 2 
+Yellow 3 released 1
+Yellow 3 Placed a package unto truck
+Green 1 claimed 4 2 
+Yellow 4 grabbed a Package: 
+	Package: 10
+	Steps: 1 4 
+Green 1 released 4
+Yellow 4 claimed 1 4 
+Green 1 released 2
+Green 1 Placed a package unto truck
+Yellow 4 released 1
+Green 2 grabbed a Package: 
+	Package: 11
+	Steps: 2 1 
+Red 3 claimed 1 2 
+Yellow 4 released 4
+Yellow 4 Placed a package unto truck
+Yellow 5 grabbed a Package: 
+	Package: 12
+	Steps: 2 4 
+Red 3 released 1
+Red 3 released 2
+Red 3 Placed a package unto truck
+Red 4 grabbed a Package: 
+	Package: 13
+	Steps: 1 2 3 
+Yellow 5 claimed 2 4 
+Yellow 5 released 2
+Red 4 claimed 1 2 3 
+Yellow 5 released 4
+Yellow 5 Placed a package unto truck
+Red 4 released 1
+Yellow 6 grabbed a Package: 
+	Package: 14
+	Steps: 1 2 
+Red 4 released 2
+Yellow 6 claimed 1 2 
+Red 4 released 3
+Red 4 Placed a package unto truck
+Yellow 6 released 1
+Red 5 grabbed a Package: 
+	Package: 15
+	Steps: 3 2 
+Yellow 6 released 2
+Yellow 6 Placed a package unto truck
+Yellow 7 grabbed a Package: 
+	Package: 16
+	Steps: 4 1 
+Red 5 claimed 3 2 
+Yellow 7 claimed 4 1 
+Red 5 released 3
+Red 5 released 2
+Red 5 Placed a package unto truck
+Yellow 7 released 4
+Red 0 grabbed a Package: 
+	Package: 17
+	Steps: 2 3 
+Yellow 7 released 1
+Yellow 7 Placed a package unto truck
+Yellow 8 grabbed a Package: 
+	Package: 18
+	Steps: 4 2 
+Blue 1 claimed 2 3 1 
+Blue 1 released 2
+Yellow 8 claimed 4 2 
+Blue 1 released 3
+Yellow 8 released 4
+Blue 1 released 1
+Blue 1 Placed a package unto truck
+Blue 2 grabbed a Package: 
+	Package: 19
+	Steps: 2 4 1 
+Yellow 8 released 2
+Yellow 8 Placed a package unto truck
+Yellow 9 grabbed a Package: 
+	Package: 20
+	Steps: 2 4 1 
+Red 0 claimed 2 3 
+Red 0 released 2
+Green 2 claimed 2 1 
+Red 0 released 3
+Red 0 Placed a package unto truck
+Green 2 released 2
+Red 6 grabbed a Package: 
+	Package: 21
+	Steps: 3 2 
+Green 2 released 1
+Green 2 Placed a package unto truck
+Green 3 grabbed a Package: 
+	Package: 22
+	Steps: 2 4 1 
+Red 6 claimed 3 2 
+Red 6 released 3
+Red 6 released 2
+Red 6 Placed a package unto truck
+Red 7 grabbed a Package: 
+	Package: 23
+	Steps: 3 2 4 
+Blue 2 claimed 2 4 1 
+Blue 2 released 2
+Blue 2 released 4
+Red 7 claimed 3 2 4 
+Blue 2 released 1
+Blue 2 Placed a package unto truck
+Blue 3 grabbed a Package: 
+	Package: 24
+	Steps: 4 3 
+Red 7 released 3
+Red 7 released 2
+Red 7 released 4
+Red 7 Placed a package unto truck
+Red 8 grabbed a Package: 
+	Package: 25
+	Steps: 4 3 1 
+Blue 3 claimed 4 3 
+Blue 3 released 4
+Green 3 claimed 2 4 1 
+Blue 3 released 3
+Blue 3 Placed a package unto truck
+Blue 4 grabbed a Package: 
+	Package: 26
+	Steps: 4 1 
+Green 3 released 2
+Green 3 released 4
+Green 3 released 1
+Green 3 Placed a package unto truck
+Green 4 grabbed a Package: 
+	Package: 27
+	Steps: 4 3 
+Yellow 9 claimed 2 4 1 
+Yellow 9 released 2
+Yellow 9 released 4
+Green 4 claimed 4 3 
+Yellow 9 released 1
+Yellow 9 Placed a package unto truck
+Green 4 released 4
+Blue 4 claimed 4 1 
+Green 4 released 3
+Green 4 Placed a package unto truck
+Blue 4 released 4
+Green 5 grabbed a Package: 
+	Package: 28
+	Steps: 1 3 
+Blue 4 released 1
+Blue 4 Placed a package unto truck
+Blue 5 grabbed a Package: 
+	Package: 29
+	Steps: 2 1 
+Green 5 claimed 1 3 
+Green 5 released 1
+Blue 5 claimed 2 1 
+Green 5 released 3
+Green 5 Placed a package unto truck
+Green 6 grabbed a Package: 
+	Package: 30
+	Steps: 3 4 
+Blue 5 released 2
+Green 6 claimed 3 4 
+Blue 5 released 1
+Blue 5 Placed a package unto truck
+Blue 6 grabbed a Package: 
+	Package: 31
+	Steps: 1 4 2 
+Green 6 released 3
+Green 6 released 4
+Green 6 Placed a package unto truck
+Green 7 grabbed a Package: 
+	Package: 32
+	Steps: 4 1 2 
+Red 8 claimed 4 3 1 
+Red 8 released 4
+Red 8 released 3
+Red 8 released 1
+Red 8 Placed a package unto truck
+Red 9 grabbed a Package: 
+	Package: 33
+	Steps: 2 4 
+Green 7 claimed 4 1 2 
+Green 7 released 4
+Green 7 released 1
+Green 7 released 2
+Green 7 Placed a package unto truck
+Green 8 grabbed a Package: 
+	Package: 34
+	Steps: 2 3 4 
+Blue 6 claimed 1 4 2 
+Blue 6 released 1
+Blue 6 released 4
+Blue 6 released 2
+Blue 6 Placed a package unto truck
+Blue 7 grabbed a Package: 
+	Package: 35
+	Steps: 2 1 
+Green 8 claimed 2 3 4 
+Green 8 released 2
+Blue 7 claimed 2 1 
+Green 8 released 3
+Blue 7 released 2
+Green 8 released 4
+Green 8 Placed a package unto truck
+Green 9 grabbed a Package: 
+	Package: 36
+	Steps: 2 1 
+Red 9 claimed 2 4 
+Blue 7 released 1
+Blue 7 Placed a package unto truck
+Blue 8 grabbed a Package: 
+	Package: 37
+	Steps: 3 1 
+Blue 8 claimed 3 1 
+Red 9 released 2
+Blue 8 released 3
+Red 9 released 4
+Red 9 Placed a package unto truck
+Blue 8 released 1
+Blue 8 Placed a package unto truck
+Blue 9 grabbed a Package: 
+	Package: 38
+	Steps: 3 1 2 
+Green 9 claimed 2 1 
+Green 9 released 2
+Green 9 released 1
+Green 9 Placed a package unto truck
+Blue 9 claimed 3 1 2 
+Blue 9 released 3
+Blue 9 released 1
+Blue 9 released 2
+Blue 9 Placed a package unto truck
+Blue 0 grabbed a Package: 
+	Package: 39
+	Steps: 3 4 2 
+Blue 0 claimed 3 4 2 
+Blue 0 released 3
+Blue 0 released 4
+Blue 0 released 2
+Blue 0 Placed a package unto truck
+]0;amitchell2@amitchell2-VirtualBox: ~/project2amitchell2@amitchell2-VirtualBox:~/project2$ exi[K[K[Kvim seed.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[H[2J[?25l[24;1H"seed.txt" 1L, 6C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H34453
+~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;63H1,1[11CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[24;65H2[1;2H[?25h[?25l[24;65H3[1;3H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hq[?25l[?2004l[23;2t[23;1t[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;amitchell2@amitchell2-VirtualBox: ~/project2amitchell2@amitchell2-VirtualBox:~/project2$ exit
+exit
+
+Script done on 2022-02-04 18:42:37-05:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,294 @@
+Script started on 2022-02-04 18:50:44-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+]0;amitchell2@amitchell2-VirtualBox: ~/project2amitchell2@amitchell2-VirtualBox:~/project2$ exits[Kmakevim fedOops_1script fedOops_32123[3Pvim fedOops_1make[Ks[Kexit[Kmake
+make: Nothing to be done for 'all'.
+]0;amitchell2@amitchell2-VirtualBox: ~/project2amitchell2@amitchell2-VirtualBox:~/project2$ s
+./shipping
+Random Seed: 46336
+ý
+Green 0 grabbed a Package: 
+	Package: 0
+	Steps: 2 4 
+Blue 1 grabbed a Package: 
+	Package: 2
+	Steps: 2 4 
+Red 1 grabbed a Package: 
+	Package: 3
+	Steps: 4 2 1 
+Yellow 0 grabbed a Package: 
+	Package: 1
+	Steps: 4 
+Green 0 claimed 2 4 
+Green 0 released 2
+Green 0 released 4
+Green 0 Placed a package unto truck
+Green 1 grabbed a Package: 
+	Package: 4
+	Steps: 4 1 
+Yellow 0 claimed 4 
+Yellow 0 released 4
+Yellow 0 Placed a package unto truck
+Yellow 1 grabbed a Package: 
+	Package: 5
+	Steps: 3 4 
+Blue 1 claimed 2 4 
+Blue 1 released 2
+Blue 1 released 4
+Blue 1 Placed a package unto truck
+Red 1 claimed 4 2 1 
+Blue 2 grabbed a Package: 
+	Package: 6
+	Steps: 3 1 4 
+Red 1 released 4
+Yellow 1 claimed 3 4 
+Red 1 released 2
+Yellow 1 released 3
+Red 1 released 1
+Red 1 Placed a package unto truck
+Red 2 grabbed a Package: 
+	Package: 7
+	Steps: 2 3 
+Yellow 1 released 4
+Yellow 1 Placed a package unto truck
+Yellow 2 grabbed a Package: 
+	Package: 8
+	Steps: 2 4 
+Blue 2 claimed 3 1 4 
+Blue 2 released 3
+Red 2 claimed 2 3 
+Blue 2 released 1
+Red 2 released 2
+Blue 2 released 4
+Blue 2 Placed a package unto truck
+Blue 3 grabbed a Package: 
+	Package: 9
+	Steps: 1 4 
+Yellow 2 claimed 2 4 
+Red 2 released 3
+Red 2 Placed a package unto truck
+Red 3 grabbed a Package: 
+	Package: 10
+	Steps: 1 3 
+Yellow 2 released 2
+Red 3 claimed 1 3 
+Yellow 2 released 4
+Yellow 2 Placed a package unto truck
+Yellow 3 grabbed a Package: 
+	Package: 11
+	Steps: 2 1 4 
+Red 3 released 1
+Blue 3 claimed 1 4 
+Red 3 released 3
+Red 3 Placed a package unto truck
+Blue 3 released 1
+Red 4 grabbed a Package: 
+	Package: 12
+	Steps: 2 4 1 
+Blue 3 released 4
+Blue 3 Placed a package unto truck
+Red 4 claimed 2 4 1 
+Blue 4 grabbed a Package: 
+	Package: 13
+	Steps: 1 2 
+Red 4 released 2
+Red 4 released 4
+Red 4 released 1
+Red 4 Placed a package unto truck
+Red 5 grabbed a Package: 
+	Package: 14
+	Steps: 1 4 
+Green 1 claimed 4 1 
+Green 1 released 4
+Green 1 released 1
+Green 1 Placed a package unto truck
+Green 2 grabbed a Package: 
+	Package: 15
+	Steps: 1 4 
+Blue 4 claimed 1 2 
+Blue 4 released 1
+Green 2 claimed 1 4 
+Blue 4 released 2
+Blue 4 Placed a package unto truck
+Blue 5 grabbed a Package: 
+	Package: 16
+	Steps: 2 
+Green 2 released 1
+Blue 5 claimed 2 
+Green 2 released 4
+Green 2 Placed a package unto truck
+Green 3 grabbed a Package: 
+	Package: 17
+	Steps: 4 1 
+Red 5 claimed 1 4 
+Blue 5 released 2
+Blue 5 Placed a package unto truck
+Blue 6 grabbed a Package: 
+	Package: 18
+	Steps: 3 2 
+Red 5 released 1
+Blue 6 claimed 3 2 
+Red 5 released 4
+Red 5 Placed a package unto truck
+Red 0 grabbed a Package: 
+	Package: 19
+	Steps: 3 2 
+Green 3 claimed 4 1 
+Blue 6 released 3
+Green 3 released 4
+Blue 6 released 2
+Blue 6 Placed a package unto truck
+Blue 7 grabbed a Package: 
+	Package: 20
+	Steps: 4 2 
+Green 3 released 1
+Green 3 Placed a package unto truck
+Green 4 grabbed a Package: 
+	Package: 21
+	Steps: 3 4 
+Red 0 claimed 3 2 
+Red 0 released 3
+Green 4 claimed 3 4 
+Red 0 released 2
+Red 0 Placed a package unto truck
+Red 6 grabbed a Package: 
+	Package: 22
+	Steps: 4 1 
+Green 4 released 3
+Green 4 released 4
+Green 4 Placed a package unto truck
+Green 5 grabbed a Package: 
+	Package: 23
+	Steps: 1 2 3 
+Blue 7 claimed 4 2 
+Blue 7 released 4
+Red 6 claimed 4 1 
+Blue 7 released 2
+Blue 7 Placed a package unto truck
+Blue 8 grabbed a Package: 
+	Package: 24
+	Steps: 1 3 
+Red 6 released 4
+Red 6 released 1
+Red 6 Placed a package unto truck
+Red 7 grabbed a Package: 
+	Package: 25
+	Steps: 4 
+Green 5 claimed 1 2 3 
+Red 7 claimed 4 
+Green 5 released 1
+Green 5 released 2
+Red 7 released 4
+Red 7 Placed a package unto truck
+Red 8 grabbed a Package: 
+	Package: 26
+	Steps: 1 4 
+Yellow 3 claimed 2 1 4 
+Green 5 released 3
+Green 5 Placed a package unto truck
+Green 6 grabbed a Package: 
+	Package: 27
+	Steps: 4 2 3 
+Yellow 3 released 2
+Yellow 3 released 1
+Blue 8 claimed 1 3 
+Yellow 3 released 4
+Yellow 3 Placed a package unto truck
+Yellow 4 grabbed a Package: 
+	Package: 28
+	Steps: 1 3 
+Blue 8 released 1
+Red 8 claimed 1 4 
+Blue 8 released 3
+Blue 8 Placed a package unto truck
+Red 8 released 1
+Blue 9 grabbed a Package: 
+	Package: 29
+	Steps: 1 
+Yellow 4 claimed 1 3 
+Red 8 released 4
+Red 8 Placed a package unto truck
+Yellow 4 released 1
+Red 9 grabbed a Package: 
+	Package: 30
+	Steps: 4 2 
+Blue 9 claimed 1 
+Yellow 4 released 3
+Yellow 4 Placed a package unto truck
+Yellow 5 grabbed a Package: 
+	Package: 31
+	Steps: 2 3 
+Red 9 claimed 4 2 
+Blue 9 released 1
+Blue 9 Placed a package unto truck
+Blue 0 grabbed a Package: 
+	Package: 32
+	Steps: 2 4 
+Red 9 released 4
+Red 9 released 2
+Red 9 Placed a package unto truck
+Blue 0 claimed 2 4 
+Blue 0 released 2
+Yellow 5 claimed 2 3 
+Blue 0 released 4
+Blue 0 Placed a package unto truck
+Yellow 5 released 2
+Yellow 5 released 3
+Yellow 5 Placed a package unto truck
+Yellow 6 grabbed a Package: 
+	Package: 33
+	Steps: 4 3 
+Green 6 claimed 4 2 3 
+Green 6 released 4
+Green 6 released 2
+Green 6 released 3
+Green 6 Placed a package unto truck
+Green 7 grabbed a Package: 
+	Package: 34
+	Steps: 2 4 
+Yellow 6 claimed 4 3 
+Yellow 6 released 4
+Green 7 claimed 2 4 
+Yellow 6 released 3
+Yellow 6 Placed a package unto truck
+Yellow 7 grabbed a Package: 
+	Package: 35
+	Steps: 1 4 3 
+Green 7 released 2
+Green 7 released 4
+Green 7 Placed a package unto truck
+Green 8 grabbed a Package: 
+	Package: 36
+	Steps: 4 
+Yellow 7 claimed 1 4 3 
+Yellow 7 released 1
+Yellow 7 released 4
+Green 8 claimed 4 
+Yellow 7 released 3
+Yellow 7 Placed a package unto truck
+Yellow 8 grabbed a Package: 
+	Package: 37
+	Steps: 2 1 4 
+Green 8 released 4
+Green 8 Placed a package unto truck
+Green 9 grabbed a Package: 
+	Package: 38
+	Steps: 2 1 
+Yellow 8 claimed 2 1 4 
+Yellow 8 released 2
+Yellow 8 released 1
+Green 9 claimed 2 1 
+Yellow 8 released 4
+Yellow 8 Placed a package unto truck
+Yellow 9 grabbed a Package: 
+	Package: 39
+	Steps: 1 4 
+Green 9 released 2
+Green 9 released 1
+Green 9 Placed a package unto truck
+Yellow 9 claimed 1 4 
+Yellow 9 released 1
+Yellow 9 released 4
+Yellow 9 Placed a package unto truck
+]0;amitchell2@amitchell2-VirtualBox: ~/project2amitchell2@amitchell2-VirtualBox:~/project2$ exit
+exit
+
+Script done on 2022-02-04 18:52:07-05:00 [COMMAND_EXIT_CODE="0"]

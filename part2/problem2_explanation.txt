@@ -1,0 +1,12 @@
+deadlocks could happen when a worker 1 wants locks 1 2 3 and worker 2 wants lock 1 2 3 and 4
+if worker 1 gets 1 and 2 and worker 2 gets locks 3 and 4 worker 1 is waiting on worker 2 to release lock 3
+and worker 2 is waiting on worker 1 to realease locks 2 and 1.
+To prevent this we set up a queue let a worker see if they can grab all the locks they need to complete their task
+if yes they take all the locks at once then release them one at a time as they are done with them
+if no then they dont grab any of the locks and go to the back of the queue and wait again for their turn.
+this does result in some programs missing their turn and groups of workers falling behind.
+to minimize this decrease in paralellism the queue is what is being used to make sure every worker gets a turn and that
+no one team can starve out other colors. Even with that in most program runs one group is usally 2-3 workers behind the rest
+
+another deadlock could happen if two groups try to use the conveyor belts at once. To eliminate this a worker is granted mutial
+exlcusion on the entire conveyor belt network so they move the package to the next section  and continue with processing.
